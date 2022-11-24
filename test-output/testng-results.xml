@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-22T09:56:53Z" name="Default suite" finished-at="2022-11-22T09:56:54Z" duration-ms="730">
+    <groups>
+    </groups>
+    <test started-at="2022-11-22T09:56:53Z" name="Default test" finished-at="2022-11-22T09:56:54Z" duration-ms="730">
+      <class name="testcases.ApiTestCases">
+        <test-method is-config="true" signature="GRPCSetUp()[pri:0, instance:testcases.ApiTestCases@350ec41e]" started-at="2022-11-22T15:26:53Z" name="GRPCSetUp" finished-at="2022-11-22T15:26:53Z" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GRPCSetUp -->
+        <test-method signature="getLoginTests()[pri:0, instance:testcases.ApiTestCases@350ec41e]" started-at="2022-11-22T15:26:53Z" name="getLoginTests" finished-at="2022-11-22T15:26:54Z" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginTests -->
+        <test-method signature="getLogoutTests()[pri:0, instance:testcases.ApiTestCases@350ec41e]" started-at="2022-11-22T15:26:54Z" name="getLogoutTests" finished-at="2022-11-22T15:26:54Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLogoutTests -->
+        <test-method is-config="true" signature="GRPCTearDown()[pri:0, instance:testcases.ApiTestCases@350ec41e]" started-at="2022-11-22T15:26:54Z" name="GRPCTearDown" finished-at="2022-11-22T15:26:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GRPCTearDown -->
+      </class> <!-- testcases.ApiTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

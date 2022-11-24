@@ -1,0 +1,25 @@
+syntax = "proto3";
+//1.A Brief Introduction to  Google GRPC .
+//2. Define GRPC Services,API and messages by Creating proto files
+//3. Generate Java stubs using maven plugin.
+
+
+//generate java stubs in this package instead of default src/main/java package
+option java_package = "com.priye.grpc";
+service user {
+	rpc login (LoginRequest) returns (APIResponse); //login api exposed to the client
+	rpc logout (Empty) returns (APIResponse); //logout api exposed to the client
+}
+
+message LoginRequest {
+	string username = 1;
+	string password = 2;
+}
+
+message APIResponse {
+	string responsemessage = 1;
+	int32 responseCode = 2;
+}
+
+message Empty {
+}
